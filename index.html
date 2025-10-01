@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana del Cine en Bolivia - La Paz</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="header">
+        <img src="img/logo-cine.png" alt="Logo Semana del Cine" class="logo">
+        <h1>Semana del Cine en Bolivia - La Paz</h1>
+        <p class="subtitulo">Del 10 al 16 de octubre | Cinemateca Boliviana y salas asociadas</p>
+    </header>
+    <nav class="menu-principal interactivo">
+        <ul>
+            <li><a href="#intro"><span>🏠</span> Inicio</a></li>
+            <li><a href="#programa"><span>🎬</span> Programa</a></li>
+            <li><a href="#cartelera"><span>🎞️</span> Cartelera</a></li>
+            <li><a href="#precios"><span>💸</span> Entradas</a></li>
+            <li><a href="#registro"><span>📝</span> Registro</a></li>
+            <li><a href="#contacto"><span>📞</span> Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="intro" class="intro">
+            <h2>¡Vive la magia del cine boliviano!</h2>
+            <p>Disfruta de una semana llena de proyecciones, charlas, talleres y encuentros con cineastas nacionales e internacionales. ¡No te pierdas la oportunidad de celebrar el séptimo arte en el corazón de La Paz!</p>
+            <a href="#programa" class="btn">Ver Programa</a>
+        </section>
+        <section id="programa" class="programa">
+            <h2>Programa Destacado</h2>
+            <ul>
+                <li><strong>Inauguración:</strong> 10 de octubre, 19:00 - Cinemateca Boliviana</li>
+                <li><strong>Proyecciones:</strong> Películas bolivianas y latinoamericanas todos los días</li>
+                <li><strong>Charlas y talleres:</strong> Cine documental, guion, dirección y más</li>
+                <li><strong>Clausura:</strong> 16 de octubre, 20:00 - Premiación y concierto</li>
+            </ul>
+        </section>
+        <section id="cartelera" class="cartelera">
+            <h2>Cartelera Destacada</h2>
+            <div class="peliculas">
+                <div class="pelicula">
+                    <img src="img/pelicula1.jpg" alt="Pelicula 1">
+                    <h3>El Viaje de la Lluvia</h3>
+                    <p>Un drama conmovedor sobre la vida en los Andes y la búsqueda de esperanza en tiempos difíciles.</p>
+                </div>
+                <div class="pelicula">
+                    <img src="img/pelicula2.jpg" alt="Pelicula 2">
+                    <h3>Ciudad de Colores</h3>
+                    <p>Documental que explora la diversidad cultural y arquitectónica de La Paz a través de sus habitantes.</p>
+                </div>
+                <div class="pelicula">
+                    <img src="img/pelicula3.jpg" alt="Pelicula 3">
+                    <h3>Rostros del Altiplano</h3>
+                    <p>Historias entrelazadas de familias bolivianas que luchan por sus sueños en el altiplano.</p>
+                </div>
+            </div>
+        </section>
+        <section id="precios" class="precios">
+            <h2>Entradas y Promociones</h2>
+            <p class="desc-precios">¡Aprovecha nuestras promociones y combos especiales para que disfrutes la Semana del Cine con quien más quieras!</p>
+            <div class="tabla-precios">
+                <div class="precio-card">
+                    <h3>Entrada General</h3>
+                    <p class="precio">Bs 30</p>
+                    <ul>
+                        <li>Acceso a una función</li>
+                        <li>Butaca numerada</li>
+                    </ul>
+                </div>
+                <div class="precio-card">
+                    <h3>Combo Pareja</h3>
+                    <p class="precio">Bs 50</p>
+                    <ul>
+                        <li>2 entradas generales</li>
+                        <li>2 bebidas gratis</li>
+                    </ul>
+                </div>
+                <div class="precio-card">
+                    <h3>Pase Estudiantil</h3>
+                    <p class="precio">Bs 20</p>
+                    <ul>
+                        <li>Presentando carnet universitario</li>
+                        <li>Acceso a una función</li>
+                    </ul>
+                </div>
+                <div class="precio-card">
+                    <h3>Pase Completo</h3>
+                    <p class="precio">Bs 120</p>
+                    <ul>
+                        <li>Acceso ilimitado a todas las funciones</li>
+                        <li>Descuentos en talleres y charlas</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="nota-precios">*Promociones válidas solo durante la Semana del Cine. Cupos limitados.</p>
+        </section>
+        <section id="registro" class="registro">
+            <h2>Regístrate y participa</h2>
+            <form class="form-registro">
+                <input type="text" name="nombre" placeholder="Nombre completo" required>
+                <input type="email" name="email" placeholder="Correo electrónico" required>
+                <select name="interes" required>
+                    <option value="" disabled selected>¿Qué te interesa?</option>
+                    <option value="proyecciones">Proyecciones</option>
+                    <option value="talleres">Talleres</option>
+                    <option value="charlas">Charlas</option>
+                    <option value="todo">Todo el evento</option>
+                </select>
+                <button type="submit" class="btn">Registrarme</button>
+            </form>
+            <p class="registro-info">Recibirás información y novedades del evento en tu correo.</p>
+        </section>
+        <section class="testimonios">
+            <h2>Lo que dicen nuestros visitantes</h2>
+            <div class="testimonios-lista">
+                <div class="testimonio">
+                    <img src="img/persona1.jpg" alt="Testimonio 1">
+                    <blockquote>“Una experiencia única, llena de cultura y emociones. ¡El cine boliviano merece ser visto por todos!”</blockquote>
+                    <p class="autor">— Carla M., estudiante</p>
+                </div>
+                <div class="testimonio">
+                    <img src="img/persona2.jpg" alt="Testimonio 2">
+                    <blockquote>“Me encantó la variedad de películas y la organización. Volveré el próximo año sin dudarlo.”</blockquote>
+                    <p class="autor">— Luis R., cinéfilo</p>
+                </div>
+                <div class="testimonio">
+                    <img src="img/persona3.jpg" alt="Testimonio 3">
+                    <blockquote>“Los talleres y charlas fueron muy enriquecedores. ¡Recomiendo el evento a todos los amantes del cine!”</blockquote>
+                    <p class="autor">— Andrea S., docente</p>
+                </div>
+            </div>
+        </section>
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <p>Para más información, escribe a <a href="mailto:info@semanacinebolivia.com">info@semanacinebolivia.com</a> o síguenos en redes sociales:</p>
+            <div class="redes-sociales">
+                <a href="https://facebook.com/semanacinebolivia" target="_blank">Facebook</a>
+                <a href="https://instagram.com/semanacinebolivia" target="_blank">Instagram</a>
+                <a href="https://twitter.com/semanacinebo" target="_blank">Twitter/X</a>
+            </div>
+            <p class="telefono">Teléfono: <a href="tel:+59171234567">+591 71234567</a></p>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2025 Semana del Cine en Bolivia - La Paz. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
